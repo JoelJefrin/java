@@ -7,7 +7,7 @@ public class strcomp {
         String a2 = "orange";
 
         System.out.println(f1==f2);
-        System.out.println(f1.equals(f2));  //use always this .equals()
+        System.out.println(f1.equals(f2));  //use always this .equals() for strings
         System.out.println(a1==a2);
     }
 }
