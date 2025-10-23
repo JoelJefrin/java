@@ -1,5 +1,4 @@
 
-import java.util.Scanner;
 public class practice {
     public static void main(String[] args) {
         // try( Scanner scan = new Scanner(System.in)){
@@ -16,15 +15,21 @@ public class practice {
         // String joel = "name";
         // System.out.println(joel.charAt(2));
         
-        Scanner scan = new Scanner(System.in);
-            String RCB = scan.nextLine();
-            if (RCB.equals("win")){
-                System.out.println("ee sala cup namde");
+        // Scanner scan = new Scanner(System.in);
+        //     String RCB = scan.nextLine();
+        //     if (RCB.equals("win")){
+        //         System.out.println("ee sala cup namde");
 
+        //     }
+        //     else{
+        //         System.out.println("we will see nxt year");
+        //     }
+        System.out.println("The numbers which are divisible by both 3 and 5 are: ");
+        for(int i = 1;i<=100;i=i+1){
+            if(i%3==0 && i%5==0){
+                System.out.println(i);
             }
-            else{
-                System.out.println("we will see nxt year");
-            }
+        }
 
         
     }
